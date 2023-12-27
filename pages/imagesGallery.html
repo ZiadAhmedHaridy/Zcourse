@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/login.css" />
-
-    <!--csutom links-->
+    <link rel="stylesheet" href="../styles/imageGallery.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
@@ -18,7 +16,6 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap"
       rel="stylesheet"
     />
-
     <title>Document</title>
   </head>
   <body>
@@ -40,36 +37,32 @@
         <div class="bx bx-menu" id="menu-icon"></div>
       </div>
     </header>
-    <div class="wrapper">
-      <form id="loginForm" method="post">
-        <h1>Login</h1>
-        <div class="input-box">
-          <input type="text" placeholder="Username" id="username" required />
-          <i class="bx bx-user"></i>
-        </div>
-        <div class="input-box">
-          <input
-            type="password"
-            placeholder="Password"
-            id="password"
-            required
-          />
-          <i class="bx bx-lock"></i>
-        </div>
-        <div class="remember">
-          <label for="remember"
-            ><input type="checkbox" id="remember" />Remember me</label
-          >
-          <a href="forgot_password.html">Forgot password</a>
-        </div>
-        <div class="main-btn">
-          <button type="submit" class="btn">Login</button>
-        </div>
-        <div class="main-btn">
-          <a href="register.html" class="btn">Register</a>
-        </div>
-      </form>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="../images/programming-computer-frog.gif" alt="Image 1" />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="../images/e426702edf874b181aced1e2fa5c6cde.gif"
+          alt="Image 2"
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="../images/213875785-400ae517-156b-4aca-a787-bac75d84c393.gif"
+          alt="Image 2"
+        />
+      </div>
     </div>
-    <script src="../scripts/login.js " type="text/javascript"></script>
+    <div class="gallery-item">
+        <img
+          src="../images/554b2a895c3e3c4f35000a55.gif"
+          alt="Image 2"
+        />
+      </div>
+      <div class="slide fade">
+        <img src="../images/554b2a895c3e3c4f35000a55.gif" alt="Slide 2" />
+      </div>
+    </div>
   </body>
 </html>
